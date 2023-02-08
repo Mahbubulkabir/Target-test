@@ -5,7 +5,8 @@
        <parameter name="url" value="https://www.target.com/"></parameter>
     <test name="target tests">
         <classes>
-            <class name="test.TestSearch"></class>
+<!--            <class name="test.TestSearch"></class>-->
+            <class name="test.TestCreateAccount"></class>
         </classes>
     </test>
 </suite>
