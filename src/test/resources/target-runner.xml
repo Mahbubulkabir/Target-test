@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="amazon test">
+<suite name="target test">
         <parameter name="browserName" value="Chrome"></parameter>
-    <parameter name="url" value=""></parameter>
-    <test name="amazon tests">
+       <parameter name="url" value="https://www.target.com/"></parameter>
+    <test name="target tests">
         <classes>
             <class name="test.TestSearch"></class>
         </classes>
