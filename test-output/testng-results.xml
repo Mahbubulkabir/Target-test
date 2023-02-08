@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-17T18:13:43 EST" name="target test" finished-at="2023-01-17T18:16:34 EST" duration-ms="170370">
+    <groups>
+    </groups>
+    <test started-at="2023-01-17T18:13:43 EST" name="target tests" finished-at="2023-01-17T18:16:34 EST" duration-ms="170370">
+      <class name="test.TestSearch">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:13:43 EST" name="setUp" finished-at="2023-01-17T18:13:57 EST" duration-ms="13322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addItemInCarts()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:13:57 EST" name="addItemInCarts" finished-at="2023-01-17T18:14:13 EST" duration-ms="16532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemInCarts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:14:13 EST" name="tearDown" finished-at="2023-01-17T18:14:13 EST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:14:13 EST" name="setUp" finished-at="2023-01-17T18:14:26 EST" duration-ms="12438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="findStoreLocation()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:14:26 EST" name="findStoreLocation" finished-at="2023-01-17T18:14:37 EST" duration-ms="11411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStoreLocation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:14:37 EST" name="tearDown" finished-at="2023-01-17T18:14:37 EST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:14:37 EST" name="setUp" finished-at="2023-01-17T18:14:46 EST" duration-ms="8489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="floatingButton()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:14:46 EST" name="floatingButton" finished-at="2023-01-17T18:14:58 EST" duration-ms="12376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- floatingButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:14:58 EST" name="tearDown" finished-at="2023-01-17T18:14:59 EST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:14:59 EST" name="setUp" finished-at="2023-01-17T18:15:08 EST" duration-ms="9580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginButton()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:08 EST" name="loginButton" finished-at="2023-01-17T18:15:17 EST" duration-ms="8705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:17 EST" name="tearDown" finished-at="2023-01-17T18:15:17 EST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:17 EST" name="setUp" finished-at="2023-01-17T18:15:27 EST" duration-ms="10145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchBicyclesForToddler()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:27 EST" name="searchBicyclesForToddler" finished-at="2023-01-17T18:15:34 EST" duration-ms="6450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBicyclesForToddler -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:34 EST" name="tearDown" finished-at="2023-01-17T18:15:34 EST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:34 EST" name="setUp" finished-at="2023-01-17T18:15:43 EST" duration-ms="8822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchGamesToys()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:43 EST" name="searchGamesToys" finished-at="2023-01-17T18:15:49 EST" duration-ms="6300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGamesToys -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:49 EST" name="tearDown" finished-at="2023-01-17T18:15:49 EST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:49 EST" name="setUp" finished-at="2023-01-17T18:15:59 EST" duration-ms="9737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchPaperNapkins()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:15:59 EST" name="searchPaperNapkins" finished-at="2023-01-17T18:16:12 EST" duration-ms="13183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPaperNapkins -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:16:12 EST" name="tearDown" finished-at="2023-01-17T18:16:12 EST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:16:12 EST" name="setUp" finished-at="2023-01-17T18:16:23 EST" duration-ms="10317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.target.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signInButton()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:16:23 EST" name="signInButton" finished-at="2023-01-17T18:16:34 EST" duration-ms="11064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@30bcf3c1]" started-at="2023-01-17T18:16:34 EST" name="tearDown" finished-at="2023-01-17T18:16:34 EST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestSearch -->
+    </test> <!-- target tests -->
+  </suite> <!-- target test -->
+</testng-results>

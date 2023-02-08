@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [target test]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="Chrome"/>
+  <parameter name="url" value="https://www.target.com/"/>
+  <test thread-count="5" name="target tests(failed)">
+    <classes>
+      <class name="test.TestSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="findStoreLocation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.TestSearch -->
+    </classes>
+  </test> <!-- target tests(failed) -->
+</suite> <!-- Failed suite [target test] -->

@@ -27,7 +27,7 @@ public class CommonAPI {
 
     @Parameters({"url","browserName"})
     @BeforeMethod
-    public void setUp(String url, String browserName) throws InterruptedException {
+    public void setUp(String url, String browserName){
         getLocalDriver(browserName);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
@@ -36,7 +36,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void tearDown() {
-        driver.close();
+        driver.quit();
     }
 
     //generic methods

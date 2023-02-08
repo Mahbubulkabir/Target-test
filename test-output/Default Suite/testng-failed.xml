@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="group2-final-automation-exam(failed)">
+    <classes>
+      <class name="test.TestSearch">
+        <methods>
+          <include name="loginButton"/>
+          <include name="setUp"/>
+          <include name="searchGamesToys"/>
+          <include name="tearDown"/>
+          <include name="searchPaperNapkins"/>
+          <include name="floatingButton"/>
+          <include name="searchBicyclesForToddler"/>
+        </methods>
+      </class> <!-- test.TestSearch -->
+    </classes>
+  </test> <!-- group2-final-automation-exam(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
